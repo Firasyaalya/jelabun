@@ -1,0 +1,83 @@
+:root {
+  --color-primary: #3A5A40;   
+  --color-secondary: #344E41;      
+  --color-fern: #588157;   
+  --color-dry-sage: #A3B18A; 
+  --color-dust-gray: #DAD7CD;
+  --font-color-gray: #9795B5;        
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  width: 370px;
+  min-width: 370px;
+  max-width: 370px;
+  min-height: 1024px;
+  background-color: #34493b; 
+  padding: 40px 28px;
+  color: #ffffff;
+}
+
+.logo-sidebar {
+  width: 100%;
+}
+
+.nav-list {
+  margin-top: 70px;
+  color: #ffffff;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  /* cursor: pointer;
+  transition: background-color 0.3s ease; */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+// logo and list navigation sidebar
+
+.icon-nav {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.nav-item.text-nav-item {
+  padding-bottom: 40px;
+}
+
+.nav-list .nav-link {
+  display: flex;
+  align-items: center; 
+  gap: 12px;           
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-list .icon {
+  display: flex;      
+  align-items: center;
+}
+
+.nav-list .icon img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.nav-list .nav-item a,
+.nav-list .nav-item a:visited {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
